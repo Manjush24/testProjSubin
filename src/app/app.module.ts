@@ -7,6 +7,7 @@ import { NavigationComponent } from './shared/components/navigation/navigation.c
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
 import { HomeComponent } from './views/home/home.component';
 import { UserManagementComponent } from './views/user-management/user-management.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UserManagementComponent } from './views/user-management/user-management
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

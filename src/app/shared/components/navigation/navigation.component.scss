@@ -1,0 +1,110 @@
+
+//    .logo-header {
+//     float: left;
+//     width: 260px;
+//     height: 55px;
+//     line-height: 55px;
+//     border-right: 1px solid #eee;
+//     color: #333333;
+//     z-index: 1001;
+//     font-size: 18px;
+//     font-weight: 600;
+//     padding-left: 25px;
+//     padding-right: 25px;
+//     z-index: 1001;
+//     display: inline-block;
+//   }
+//   .logo-header a.logo {
+//     color: #575962;
+//   }
+//  .logo-header .navbar-toggler {
+//     padding-left: 0px;
+//     padding-right: 0px;
+//     opacity: 0;
+//   }
+//   .logo-header .navbar-toggler .navbar-toggler-icon {
+//     // background: url(../../../../assets/img/menu2.png);
+//     background-size: cover;
+//     height: 1em;
+//     width: 1em;
+//     opacity: .8;
+//   }
+//   .logo-header .more {
+//     background: transparent;
+//     border: 0;
+//     font-size: 26px;
+//     padding: 0;
+//     opacity: 0;
+//   }
+
+//   .logo-header {
+//     display: flex;
+//     width: 100% !important;
+//     text-align: left;
+//     position: relative;
+//     justify-content: center;
+//   }
+//   .logo-header .navbar-toggler {
+//     position: absolute;
+//     top: auto;
+//     height: 100%;
+//     left: 15px;
+//     opacity: 1;
+//   }
+//   .logo-header .more {
+//     opacity: 1;
+//     position: absolute;
+//     right: 15px;
+//     color: #545454;
+//     cursor: pointer;
+//   }
+
+//   .nav-search {
+//     width: 100%;
+//     margin-right: 0 !important;
+//     margin-top: 12px;
+//   }
+
+//   .navbar-header {
+//     border-top: 1px solid #eee;
+//     position: absolute;
+//     width: 100%;
+//     background: #ffffff;
+//     transform: translate3d(0, -200px, 0) !important;
+//     transition: all .5s;
+//   }
+
+//   .topbar_open .navbar-header {
+//     transform: translate3d(0, 54px, 0) !important;
+//     border-bottom: 1px solid #eee;
+//   }
+
+//   .nav_open.topbar_open .main-panel {
+//     transform: translate3d(260px, 125px, 0) !important;
+//   }
+
+//   .navbar-header .navbar-nav {
+//     width: 100%;
+//     flex-direction: row;
+//     justify-content: center;
+//     margin-left: 0px !important;
+//     margin-top: 10px;
+//     margin-bottom: 10px;
+//     position: relative;
+//   }
+//   .navbar-header .navbar-nav .dropdown {
+//     position: unset;
+//   }
+//   .navbar-header .navbar-nav .dropdown-menu {
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     margin: 0 auto;
+//     max-width: 280px;
+//   }
+
+//   @media screen and (min-width: 992px) {
+//     .logo-header {
+//       line-height: 52px;
+//     }
+//   }
